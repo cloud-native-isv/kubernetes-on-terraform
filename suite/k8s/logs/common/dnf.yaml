@@ -1,0 +1,7 @@
+file_path: "/logtail_host/var/log"
+file_pattern: "dnf.log"
+key:
+  - "time"
+  - "level"
+  - "msg"
+regex : "^(\\S+)\\s+(CRITICAL|WARNING)\\s+(.*)$"

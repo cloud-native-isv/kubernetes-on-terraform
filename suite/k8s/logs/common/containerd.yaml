@@ -1,0 +1,7 @@
+file_path: "/logtail_host/var/log"
+file_pattern: "containerd.log"
+key:
+  - "time"
+  - "level"
+  - "msg"
+regex : "time=\"([^\"]+)\"\\s+level=(\\S+)\\s+msg=\"(.+)\"$"

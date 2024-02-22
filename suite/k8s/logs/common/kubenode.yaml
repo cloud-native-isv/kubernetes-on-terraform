@@ -1,0 +1,10 @@
+file_path: "/logtail_host/var/log/kubenode/dragonball"
+file_pattern: "install_*.log"
+key:
+  - "time"
+  - "level"
+  - "msg"
+regex: "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{3}) \\[(.*?)\\] begin to run operationType\\[.*?\\], args: \\[.*?\\], env: (.*)"
+
+
+

@@ -1,0 +1,7 @@
+file_path: "/logtail_host/var/log"
+file_pattern: "iohub-vfhp-helper.log"
+key:
+  - "time"
+  - "level"
+  - "msg"
+regex : "^([^[]+)[([^]]+)]\\s+(.*)$"
